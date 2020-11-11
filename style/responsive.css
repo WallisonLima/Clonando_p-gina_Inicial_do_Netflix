@@ -14,7 +14,7 @@
     }
 }
 
-@media screen and (min-width:) {
+@media screen and (min-width) {
     .description {
         width: 50%;
     }
