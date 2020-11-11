@@ -1,10 +1,6 @@
 :root {
     --vermelho: #e50914;
-    --preta: #010101;
-}
-body {
-    background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    --preta: #0f0b08;
 }
 
 * {
@@ -13,11 +9,20 @@ body {
     box-sizing: border-box;
 }
 
+/*elementos base*/
+
+body {
+    background: var(--preta);
+    font-family: 'arial', Times, serif;
+    color: white;
+}
+
 header .container{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 header .logo {
@@ -29,9 +34,76 @@ header .logo {
 header nav a{
     text-decoration: none;
     color: #AAA;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
-header nav a.hover{
+header nav a:hover{
     color: #fff;
+}
+
+/*Filme principal*/
+
+.filmePrincipal {
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45) 100%), url('/img/fundo.jpg');
+
+    height: 400px;
+    background-size: cover;
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}   
+
+ .container {
+    margin-left: 20px;
+}
+
+.filmePrincipal .container {
+    width: 70%;
+}
+
+.filmePrincipal .description {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filmePrincipal .titulo {
+    margin-top: 15%;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.box-filme {
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
 }
