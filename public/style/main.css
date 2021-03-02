@@ -1,0 +1,167 @@
+:root {
+    --vermelho: #E50914;
+    --preta: #0f0b08;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+
+body {
+    background: var(--preta);
+    font-family: 'arial', Times, serif;
+    color: white;
+}
+
+header .container{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+header .logo {
+    text-decoration: none;
+    color: var(--vermelho);
+    font-family: arial Black;
+    font-size: 45px;
+}
+
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-left: 30px;
+    font-size: 20px;
+    
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*Filme principal*/
+main {
+    background-size: cover;
+    background-image: url('/img/fundo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-image-slice: : 
+
+}
+
+footer .container{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    width: auto;
+    margin: 20px;
+}
+
+.filmePrincipal {
+    font-size: 20px;
+    height: 500px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    
+}   
+
+.container {
+    margin-left: 60px;
+}
+
+.filmePrincipal .container {
+    width: 70%;
+}
+
+.filmePrincipal .description {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filmePrincipal .titulo {
+    margin-top: 15%;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao1{
+    background-color: white;
+    border: none;
+    color: var(--preta);
+
+    padding: 20px 40px;
+    margin-right: 15px;
+    font-size: 25px;
+    border-radius: 5px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.botao2{
+    background-color: #525252;
+    border: none;
+    color: white;
+
+    padding: 20px 40px;
+    margin-right: 15px;
+    font-size: 25px;
+    border-radius: 5px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao1:hover {
+    background-color: var(--vermelho);
+    color: white;
+}
+.botao2:hover {
+    background-color: var(--vermelho);
+    color: white;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.box-filme {
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {  
+    margin-left: 60px;
+    margin-top: 5px;
+    margin-right: 58px;
+    border-radius: 5px;
+}
+
+.box-filme {
+    border-radius: 5px;
+}
+
+.title-home{
+    color: var(--preta);
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+
+.title-nav{
+    color: var(--preta);
+   padding-top: 20px;
+    font-size: 25px;
+}
