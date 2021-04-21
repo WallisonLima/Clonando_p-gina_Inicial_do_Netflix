@@ -24,7 +24,7 @@ Feito e instalação das ferramentas utilizadas nesse projeto, siga os passo aba
 
 3. [Clone](https://docs.github.com/pt/github/creating-cloning-and-archiving-repositories/cloning-a-repository#:~:text=10%2C%20done.-,Clonar%20um%20reposit%C3%B3rio%20no%20GitHub%20Desktop,Desktop%20para%20concluir%20o%20clone.) o projeto em questão.
 
-4. Digite `cd calculadora-JavaScript-CSS3-HTML5`
+4. Digite `cd Clonando_p-gina_Inicial_do_Netflix`
 
 5. Instale as dependências necessárias rodando no terminal dentro da pasta clonada: 
     
